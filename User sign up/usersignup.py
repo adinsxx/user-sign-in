@@ -73,7 +73,7 @@ class User(db.Model):
     email = db.StringProperty()
 
 #defines sign up parameters: valid email/username/password/password verify
-class Signup(BaseHandler):
+class MainPage(BaseHandler):
     def get(self):
         self.render("sign-up-text.html")
 
